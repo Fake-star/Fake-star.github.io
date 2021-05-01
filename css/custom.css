@@ -1,0 +1,16 @@
+
+#content-inner {
+        // 白天模式下 卡片背景色
+        --light_bg_color: rgba(255, 255, 255, 0);
+        // 夜间模式下 卡片背景色
+        --dark_bg_color: rgba(18, 18, 18, 0.8);
+
+}
+
+#aside-content .card-widget {
+    background: var(--light_bg_color)
+}
+
+#web_bg {
+    background: url(https://cdn.jsdelivr.net/gh/Fake-star/picture/20210430232515.png)
+}
