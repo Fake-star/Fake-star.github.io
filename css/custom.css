@@ -25,6 +25,9 @@
     }
 }
 
+#aside_content .card-webinfo .webinfo .webinfo-item div:first-child {
+    display: inline-block;
+    }
 
 /*
 #aside-content .card-widget {
