@@ -2,12 +2,28 @@
 
 /*背景框*/
 
-
 #web_bg {
     background: url(https://cdn.jsdelivr.net/gh/Fake-star/picture/20210430232515.png)
 }
 
+/* 页脚透明 */
 
+#footer {
+    background: transparent !important;
+}
+
+#footer #footer-wrap, #footer #footer-wrap a {
+    color: #333;
+}
+
+/*移动端优化：去除归档、标签、最新文章、公告、、只保留网站统计*/
+
+@media screen and (max-width: 800px) {
+    #aside_content div:not(:last-child) {
+        display: none;
+        font-size: 13px;
+    }
+}
 
 
 /*
@@ -28,14 +44,7 @@
 }
 */
 
-/* 页脚透明 */
 
-#footer {
-    background: transparent !important;
-}
 
-#footer #footer-wrap, #footer #footer-wrap a {
-    color: #333;
-}
 
 
