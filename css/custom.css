@@ -2,7 +2,61 @@
 /*背景*/
 
 #web_bg {
-    background: url(https://cdn.jsdelivr.net/gh/Fake-star/picture/20210430232515.png)
+    background: url(https://cdn.jsdelivr.net/gh/Fake-star/picture/20210507191106.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
+#page h1.page-title, #post>#post-info {
+    text-align: center;
+}
 
+/* 页脚透明 */
+
+#footer {
+    background: transparent !important;
+}
+
+/* 所有背景（包括首页卡片、文章页、页面页等） */
+#aside_content .card-widget, #recent-posts>.recent-post-item, .layout_page>div:first-child:not(.recent-posts), .layout_post>#page, .layout_post>#post, .read-mode .layout_post>#post{
+    /* 以下代表白色透明度为0.3 */
+    background: rgba(255,255,255,.87);
+}
+
+[data-theme="dark"]
+  #aside-content .card-widget, #recent-posts > .recent-post-item, div#page, div#post, div#archive, div#tag, div#category{
+      background: rgba(0, 0, 0, 0.8)!important;
+    }
+[data-theme="dark"]
+  div#post{
+    background: rgba(0, 0, 0, 0.75)!important;
+    }
+
+/* 首页文章卡片 */
+#recent-posts > .recent-post-item{
+    background:rgba(255, 255, 255, 0.75);
+}
+/* 首页侧栏卡片 */
+.card-widget{
+  background:rgba(255, 255, 255, 0.75)!important;
+}
+/* 文章页面正文背景 */
+div#post{
+  background: rgba(255, 255, 255, 0.8);
+}
+/* 分页页面 */
+div#page{
+  background: rgba(255, 255, 255, 0.75);
+}
+/* 归档页面 */
+div#archive{
+  background: rgba(255, 255, 255, 0.75);
+}
+/* 标签页面 */
+div#tag{
+  background: rgba(255, 255, 255, 0.75);
+}
+/* 分类页面 */
+div#category{
+  background: rgba(255, 255, 255, 0.75);
+}
