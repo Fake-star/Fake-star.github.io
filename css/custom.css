@@ -88,6 +88,19 @@ div#category{
 }
 
 /* 首页中间打字效果上方 */
-#page-header #site_title {
-  color: #80bdab;
+#page-header #site-title{
+  color: rgb(64 241 197 / 86%);
 }
+
+/*移动端优化：去除归档、标签、最新文章、公告、、只保留网站统计*/
+
+@media screen and (max-width: 800px) {
+  #aside-content div:not(:last-child) {
+      display: none;
+      font-size: 13px;
+  }
+}
+
+#aside-content .card-webinfo .webinfo .webinfo-item div:first-child {
+  display: inline-block;
+  }
