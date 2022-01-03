@@ -91,7 +91,7 @@ div#category{
 
 /* 首页中间打字效果上方 */
 #page-header #site-title{
-  color: rgb(64 241 197 / 86%);
+  color: rgba(79, 185, 106, 0.86);
 }
 
 /*移动端优化：去除归档、标签、最新文章、公告、、只保留网站统计*/
