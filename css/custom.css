@@ -2,7 +2,7 @@
 /*背景*/
 
 #web_bg {
-    background: url(https://cdn.jsdelivr.net/gh/Fake-star/picture/20210507191106.jpg);
+    background: url("https://cdn.jsdelivr.net/gh/Fake-star/picture/20220103170110.png");
     background-position: center center;
     background-repeat: no-repeat;
 }
@@ -16,7 +16,9 @@
 #footer {
     background: transparent !important;
 }
-
+#footer-wrap, #footer-wrap a {
+  color: rgba(0, 0, 0);
+}
 /*夜间模式*/
 [data-theme="dark"]
   #aside-content .card-widget{
@@ -129,6 +131,6 @@ div#category{
 
 /* 博主昵称颜色 */
 .author-info__name {
-  color: #ff7242;
+  color: #000000;
 }
 
