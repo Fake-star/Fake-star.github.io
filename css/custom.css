@@ -2,7 +2,7 @@
 /*背景*/
 
 #web_bg {
-    background: url("https://cdn.jsdelivr.net/gh/Fake-star/picture/20220103190949.png");
+    background: -webkit-linear-gradient( 180deg, rgba(255, 248, 124),rgba(166, 208, 117) );
     background-position: center center;
     background-repeat: no-repeat;
 }
