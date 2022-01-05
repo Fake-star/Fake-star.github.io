@@ -37,6 +37,9 @@
 #aside-content .card-webinfo .webinfo .webinfo-item div:first-child {
   display: inline-block;
   }
+#aside-content .card-history .card-content {
+  display: inline-block;
+  }
 
   /* 滚动条 */
 
@@ -65,3 +68,6 @@
   color: #000000;
 }
 
+#aside-content :only-child > .card-widget {
+  margin-top:1rem
+}
