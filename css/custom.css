@@ -25,22 +25,6 @@
   color: rgba(79, 185, 106, 0.86);
 }
 
-/*移动端优化：去除归档、标签、最新文章、公告、、只保留网站统计*/
-
-@media screen and (max-width: 800px) {
-  #aside-content div:not(:last-child) {
-      display: none;
-      font-size: 13px;
-  }
-}
-
-#aside-content .card-webinfo .webinfo .webinfo-item div:first-child {
-  display: inline-block;
-  }
-#aside-content .card-history .card-content {
-  display: inline-block;
-  }
-
   /* 滚动条 */
 
 ::-webkit-scrollbar {
@@ -70,4 +54,14 @@
 
 #aside-content :only-child > .card-widget {
   margin-top:1rem
+}
+
+@font-face{
+  font-family:'Candyhome' ;  /* 字体名自定义即可 */
+  src:url('/fonts/Candy.ttf'); /* 字体文件路径 */
+  font-display : swap;
+}
+
+h1#site-title {
+  font-family: 'Candyhome', sans-serif;
 }
