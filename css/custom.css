@@ -1,0 +1,74 @@
+
+/*背景*/
+
+#web_bg {
+    background: -webkit-linear-gradient( 180deg, rgba(255, 248, 124),rgba(166, 208, 117) );
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#page h1.page-title, #post>#post-info {
+    text-align: center;
+}
+
+[data-theme="dark"]
+  #footer-wrap{
+    color: rgb(255, 255, 255);}
+
+/* 页脚透明 */
+
+#footer {
+    background: transparent !important;
+}
+#footer-wrap{
+  color: rgba(0, 0, 0);
+}
+#footer-wrap a{
+  color: rgb(141, 145, 202)
+}
+
+/* 首页中间打字效果上方 */
+#page-header #site-title{
+  color: rgba(79, 185, 106, 0.86);
+}
+
+  /* 滚动条 */
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #7ed8b6;
+  background-image: -webkit-linear-gradient( 45deg, rgba(255, 255, 255, 0.4) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.4) 75%, transparent 75%, transparent);
+  border-radius: 2em;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+::-moz-selection {
+  color: #fff;
+  background-color: #7ed8b6;
+}
+
+/* 博主昵称颜色 */
+.author-info__name {
+  color: #000000;
+}
+
+#aside-content :only-child > .card-widget {
+  margin-top:1rem
+}
+
+@font-face{
+  font-family:'Candyhome' ;  /* 字体名自定义即可 */
+  src:url('/fonts/Candy.ttf'); /* 字体文件路径 */
+  font-display : swap;
+}
+
+h1#site-title {
+  font-family: 'Candyhome', sans-serif;
+}
