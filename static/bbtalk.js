@@ -61,6 +61,6 @@ function Roll() {
         });
     } catch (error) {}
 };
-setInterval(Roll, 3000);// 首页轮播时间
+setInterval(Roll, 6000);// 首页轮播时间
 
 
